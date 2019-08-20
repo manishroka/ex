@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<form action="store.php" method="POST" enctype="multipart/form-data">
+<p>Fname:<input type="text" name="fnme"/></p>
+<p>Lname:<input type="text" name="lnme"/></p>
+<p>Email:<input type="email" name="em"/></p>
+<p><input type="file" name="upload"/>uload your photo</p>
+<p>Mobile no:<input type="number" name="num"/></p>
+Gender:<p><input type="radio" name="radgender" value="male"/>Male
+<input type="radio" name="radgender" value="female"/>Female
+<input type="radio" name="radgender" value="Deny to state"/>Deny to state</p>
+<p>Academic Qualificaiton:<select name="sel">
+<option value="">-choose any one from the list-</option>
+<option  value="">slc</option>
+<option value="">+2</option>
+<option>bachelor</option>
+<option>master</option>
+<option>phd</option>
+</select></p>
+Hobbies:<p><input type="checkbox" name="chkbox" value="playing"/>Playing
+<input type="checkbox" name="chkbox" value="dancing"/>Dancing<br/>
+<input type="checkbox" name="chkbox" value="singing"/>Singing
+<input type="checkbox" name="chkbox" value="exploring"/>Exploring<br/>
+<input type="checkbox" name="chkbox" value="Agent"/>Agent
+<input type="checkbox" name="chkbox" value="Engineer"/>Engineer<br/>
+<input type="checkbox" name="chkbox" value="Doctor"/>Doctor
+<input type="checkbox" name="chkbox" value="Soldier"/>Soldier
+</p>
+<input type="submit" name="submit" value="Register"/>
+</form>
+</body>
+</html>

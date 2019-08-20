@@ -1,0 +1,11 @@
+File Handling in php
+Reading file
+-Open the file:- fopen()
+-Use read function to read file|fgets(),fread(),fscan(),fgetc()
+r, r+
+w, w+
+a, a+
+x, x+
+
+FOR WRITE
+fputs(),fwrite(),fprintf(),fputc()
